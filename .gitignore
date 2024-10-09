@@ -1,0 +1,73 @@
+# Node modules
+node_modules/
+
+# Yarn
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.pnp.js
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Ruby Gems
+vendor/bundle/
+Gemfile
+Gemfile.lock
+*.gem
+.ruby-version
+.ruby-gemset
+
+# Log and temp files
+log/
+tmp/
+
+# Jekyll (if applicable)
+_site/
+.sass-cache/
+
+# Documentation
+.yardoc
+/_yardoc/
+doc/
+rdoc/
+
+# Byebug
+.byebug_history
+
+# Expo
+.expo/
+.expo-shared/
+
+# Metro bundler cache
+/metro-cache/
+
+# Watchman
+.watchmanconfig
+
+# iOS build artifacts
+ios/build/
+ios/Pods/
+
+# Android build artifacts
+android/.gradle/
+android/app/build/
+android/build/
+
+# Gradle
+.gradle/
+
+# Environment variables
+.env
+.env.*
+
+# Bundled JavaScript
+*.bundle
+
+# macOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
